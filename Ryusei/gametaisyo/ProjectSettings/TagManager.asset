@@ -24,6 +24,7 @@ TagManager:
   - Garbage can
   - ChickenBox
   - Click
+  - Stock
   layers:
   - Default
   - TransparentFX
