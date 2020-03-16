@@ -87,10 +87,14 @@ public class Item : MonoBehaviour {
                     Resource = (GameObject)Resources.Load("ItemKoge");   //Resourceフォルダのプレハブを読み込む
                 }
                 objcolor.GetComponent<Renderer>().material.color = new Color(alpha_Sin, alpha_Sin, alpha_Sin);
-                break;
+                
+                    break;
 
             case "ItemTenpura":
                 if (other.gameObject.tag == "tenpuranabe") agecount++;
+
+                //ストックされたら腐る
+                if (other.gameObject.tag == "Stock") agecount++;
 
                 if (agecount >= 150)
                 {
@@ -122,6 +126,9 @@ public class Item : MonoBehaviour {
                 break;
             case "ItemFriedchicken":
                 if (other.gameObject.tag == "karaagenabe") agecount++;
+
+                //ストックされたら
+                if (other.gameObject.tag == "Stock") agecount++;
 
                 if (agecount >= 150)
                 {
@@ -200,6 +207,10 @@ public class Item : MonoBehaviour {
                         Resource = (GameObject)Resources.Load("ItemKoge");   //Resourceフォルダのプレハブを読み込む
                     }
                 }
+
+                //ストックされたら
+                if (other.gameObject.tag == "Stock") agecount++;
+
                 break;
             default:
                 //case文にあるもの以外の場合
