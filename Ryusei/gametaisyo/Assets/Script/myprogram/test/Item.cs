@@ -198,18 +198,16 @@ public class Item : MonoBehaviour {
                 break;
 
             case "ItemQuailFry":
-                if (other.gameObject.tag == "karaagenabe")
-                {
-                    agecount++;
 
-                    if (agecount >= 150)
-                    {
-                        Resource = (GameObject)Resources.Load("ItemKoge");   //Resourceフォルダのプレハブを読み込む
-                    }
-                }
+                if (other.gameObject.tag == "karaagenabe") agecount++;
 
                 //ストックされたら
                 if (other.gameObject.tag == "Stock") agecount++;
+
+                if (agecount >= 150)
+                    {
+                        Resource = (GameObject)Resources.Load("ItemKoge");   //Resourceフォルダのプレハブを読み込む
+                    }
 
                 break;
             default:

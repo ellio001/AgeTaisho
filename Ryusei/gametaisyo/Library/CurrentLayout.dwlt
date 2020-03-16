@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 471}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 989
+  controlID: 4319
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 471}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 1116
+  controlID: 4320
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 1186
+  controlID: 4245
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 1117
+  controlID: 4321
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -413,9 +413,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a22d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e0fbffff00000000922f0000
+    m_SelectedIDs: b4fbfeff
+    m_LastClickedID: -66636
+    m_ExpandedIDs: f0fbffff00000000762f0000862f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -465,14 +465,14 @@ MonoBehaviour:
     height: 428
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3192.1395734
+  lastFramingTime: 2017.4229272999999
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.0505686, y: 5.1881304, z: 3.2799735}
+    m_Target: {x: -2.7456343, y: 3.267933, z: 5.55962}
     speed: 2
-    m_Value: {x: -5.0505686, y: 5.1881304, z: 3.2799735}
+    m_Value: {x: -2.7456343, y: 3.267933, z: 5.55962}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -500,13 +500,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14441293, y: 0.57444113, z: -0.103827074, w: -0.7989883}
+    m_Target: {x: -0.0944039, y: 0.075113125, z: -0.007142902, w: -0.9926706}
     speed: 2
-    m_Value: {x: -0.14441293, y: 0.57444113, z: -0.103827074, w: -0.7989883}
+    m_Value: {x: -0.0944039, y: 0.07511313, z: -0.007142902, w: -0.99267066}
   m_Size:
-    m_Target: 2.3508894
+    m_Target: 8.606929
     speed: 2
-    m_Value: 2.3508894
+    m_Value: 8.606929
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 12376
+  m_LastSelectedObjectID: -66636
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -660,20 +660,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets/Material
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Material
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\unity_project\AgeTaisho\Ryusei\gametaisyo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 722d0000
-    m_LastClickedID: 11634
-    m_ExpandedIDs: 00000000142a0000322a00009c2b0000f82c0000002d0000642e0000c02e00001a31000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 64}
+    m_SelectedIDs: b62d0000
+    m_LastClickedID: 11702
+    m_ExpandedIDs: 00000000ea290000082a0000722b0000d62c00003a2e0000962e00000031000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -701,7 +701,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000142a0000322a00009c2b0000f82c0000002d0000642e0000c02e00001a31000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ea290000082a0000722b0000d62c00003a2e0000962e00000031000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 80}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 185
 --- !u!114 &20
