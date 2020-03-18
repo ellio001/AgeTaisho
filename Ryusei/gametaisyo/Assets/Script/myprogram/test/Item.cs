@@ -50,6 +50,7 @@ public class Item : MonoBehaviour {
             case "ItemKoge":
                 if (other.gameObject.tag == "Garbage can")
                 {
+                    GameManager.instance.score_num -= 100;
                     Destroy(gameObject);
                 }
                 break;

@@ -13,6 +13,7 @@ public class GuestMove : MonoBehaviour {
     int WaitCount;  //客が帰るまでの時間
     public string ItemString;   //アイテム名の文字列を入れる箱
     public string NumberString;
+    public int ItemScore;   //アイテムの「スコア
 
     GameObject GuestGenerator;
     GuestGenerator Number;
@@ -73,18 +74,23 @@ public class GuestMove : MonoBehaviour {
         switch (flooredIntrandom)
         {
             case 0:
+                ItemScore = 100;
                 ItemString = "ItemTenpura"; //*(エビ、魚、ポテトの処理が同じなので) 後々エビフライを入れる
                 break;
             case 1:
+                ItemScore = 100;
                 ItemString = "ItemTenpura"; // * 後々魚フライをいれる
                 break;
             case 2:
+                ItemScore = 100;
                 ItemString = "ItemTenpura"; // * 後々ポテトフライをいれる
                 break;
             case 3:
+                ItemScore = 100;
                 ItemString = "ItemFriedchicken";
                 break;
             case 4:
+                ItemScore = 100;
                 ItemString = "ItemQuailFry";
                 break;
         }

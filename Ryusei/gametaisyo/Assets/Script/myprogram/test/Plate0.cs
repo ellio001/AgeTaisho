@@ -43,7 +43,7 @@ public class Plate0 : MonoBehaviour
         if (script != null && other.gameObject.name == script.ItemString)
         {
             provide = true;
-            //Number.counter[0] = false; //席が埋まってるときはtrue
+            GameManager.instance.score_num += script.ItemScore;
             Destroy(other.gameObject);  //客が商品を食べる
         }
     }
